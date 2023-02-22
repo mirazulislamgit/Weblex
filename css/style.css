@@ -14,7 +14,9 @@ a {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     margin: 0;
+    color: #59554E;
 }
 
 p {
@@ -31,9 +33,17 @@ body {
     background: linear-gradient(to right,#FC5A4C, #F01EAD);
     padding: 10px 20px;
     border-radius: 10px;
+    transition: all linear 0.3s;
 }
 .primary-btn a {
     color: #fff;
+}
+.primary-btn:hover {
+    background: linear-gradient(#FC5A4C, #FC5A4C);
+}
+
+section {
+    padding-bottom: 80px;
 }
 /* End Common CSS */
 
@@ -43,6 +53,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 99;
 }
 
 .navbar .primary-btn {
@@ -54,13 +65,11 @@ body {
 #banner {
     position: relative;
     overflow: hidden;
-    padding: 50px 0;
 }
 
 .banner-text h1 {
     font-size: 45px;
     font-weight: 800;
-    color: #59554E;
 }
 
 .banner-text p {
@@ -84,3 +93,20 @@ body {
     z-index: -1;
 }
 /* End Banner Area */
+
+/* Start Future Area */
+.future-content {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.future-content i {
+    font-size: 40px;
+}
+
+.icon-shape {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right,#FC5A4C, #F01EAD);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+/* End Future Area */
