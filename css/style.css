@@ -130,3 +130,83 @@ section {
     color: #FC5A4C;
 }
 /* End Learning Area */
+
+/* Start Popular Area */
+.title h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #FC5A4C;
+    text-transform: uppercase;
+}
+.popular-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.popular-items-area {
+    position: relative;
+    width: 1030px;
+}
+
+.popular-item {
+    width: 230px;
+    height: 230px;
+    background: linear-gradient(to right,#FC5A4C, #F01EAD);
+    border-radius: 170px 0px 0px 0px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+}
+
+.popular-content {
+    transform: rotate(-45deg);
+}
+
+.popular-content img {
+    width: 45px;
+}
+
+.popular-content p {
+    padding: 20px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.popular-content h6 a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #59554E;
+}
+
+.popular-item:nth-child(2) {
+    transform: rotate(225deg);
+    left: 175px;
+    top: 175px;
+}
+
+.popular-item:nth-child(even) .popular-content {
+    transform: rotate(135deg);
+}
+
+.popular-item:nth-child(3) {
+    transform: rotate(45deg);
+    left: 350px;
+    background: linear-gradient(to bottom,#FC5A4C, #F01EAD);
+}
+
+.popular-item:nth-child(4) {
+    transform: rotate(225deg);
+    left: 525px;
+    top: 175px;
+    background: linear-gradient(to left,#FC5A4C, #F01EAD);
+}
+
+.popular-item:nth-child(5) {
+    transform: rotate(45deg);
+    left: 700px;
+}
+/* End Popular Area */
